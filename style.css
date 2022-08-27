@@ -1,0 +1,43 @@
+body {
+    background-color: #ffc6c6;
+    transition-duration: 5s;
+    /*background-image: url("https://media2.giphy.com/media/2o1eDUHEP6T1C/giphy.gif?cid=ecf05e47guwpacze7dmxkj02b512kri5ndfn66br1qa88nuw&rid=giphy.gif&ct=s");*/
+}
+
+.mainframe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+main {
+    min-width: 500px;
+    max-width: 700px;
+    min-height: 500px;
+    border-radius: 10px;
+    padding: 1rem;
+    font-family:  cursive;
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 7px 29px 0px;
+}
+
+main h1 {
+    text-align: center;
+    padding: 1rem;
+    font-family: 'Sacramento', cursive;
+    font-size: 3rem;
+    text-decoration: underline 1px wavy;
+}
+
+.feel{
+    font-weight: lighter;
+}
+
+.salutation, .dear{
+    margin: 1rem 0;
+}
+.salutation span{
+    font-weight: lighter;
+}
